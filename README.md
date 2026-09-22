@@ -6,13 +6,6 @@ o enunciado do Projeto 1.
 ## Como compilar e rodar
 
 ```sh
-make
-./termo
-```
-
-ou manualmente:
-
-```sh
 gcc -Wall -Wextra -std=c11 -o termo termo.c
 ./termo
 ```
@@ -40,15 +33,9 @@ https://github.com/thoughtworks/dadoware/blob/master/fontes/sem_acentos.txt
 
 - `termo.c` — programa principal (arquivo único, apenas libc padrão)
 - `sem_acentos.txt` — dicionário oficial (baixar do link acima)
-- `Makefile` — compilação com `make`
+
 
 ## Função de busca própria
 
 Conforme pedido no enunciado, a busca no dicionário é feita por uma função
 própria (`buscaSequencial`), sem usar `bsearch`/`lsearch` da libc.
-
-## Observação técnica
-
-Como o dicionário oficial (`sem_acentos.txt`) não contém acentos, o programa
-trabalha apenas com ASCII simples — não há necessidade de decodificação
-UTF-8 multibyte.
