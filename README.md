@@ -39,3 +39,7 @@ https://github.com/thoughtworks/dadoware/blob/master/fontes/sem_acentos.txt
 
 Conforme pedido no enunciado, a busca no dicionário é feita por uma função
 própria (`buscaSequencial`), sem usar `bsearch`/`lsearch` da libc.
+
+## Integrantes
+Gabriel Lopes Sanches - RA: 10779844
+Luan Oliveira Pelisser - RA: 10765545
