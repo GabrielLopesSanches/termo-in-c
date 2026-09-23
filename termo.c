@@ -1,7 +1,7 @@
 #include <stdio.h>
-#include <stdlib.h>
-#include <string.h>
-#include <time.h>
+#include <stdlib.h>/*iremos usar essa biblioteca por conta do rand()*/
+#include <string.h>/*usamos o strlen()*/
+#include <time.h>/*usamos para pegar o minuto em que a pessoa abriu o jogo, para sempre mudar a palavra*/
 #include <ctype.h>/*isalpha por enquanto*/
 
 #define MAX_WORDS     2000
